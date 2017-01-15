@@ -22,9 +22,10 @@
   "homepage": "https://github.com/espiderinc/hapi-rest-demo#readme",
   "dependencies": {
     "hapi": "^13.3.0",
+    "istanbul": "^0.4.5",
     "pg": "^4.5.5",
-    "underscore": "~1.6.0",
-    "q": "~1.0.1"
+    "q": "~1.0.1",
+    "underscore": "~1.6.0"
   },
   "devDependencies": {
     "mocha": "^1.17.1",

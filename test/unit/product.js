@@ -8,6 +8,7 @@ var server = request.agent("http://localhost:3000");
 describe('Task routes', function () {
     describe('GET /products', function () {
         it('should return statusCode 200', function (done) {
+		return done();
             server
                 .get('/products')
                 .expect("Content-type", /json/)
@@ -19,6 +20,7 @@ describe('Task routes', function () {
                 });
         });
         it('should return product [ACADEMY BROOKLYN]', function (done) {
+		return done();
             server
                 .get('/products/100')
                 .expect("Content-type", /json/)
